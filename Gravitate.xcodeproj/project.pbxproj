@@ -14,6 +14,8 @@
 		4090642E1A3A5EFD00A43DFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4090642D1A3A5EFD00A43DFB /* Images.xcassets */; };
 		409064311A3A5EFD00A43DFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4090642F1A3A5EFD00A43DFB /* LaunchScreen.xib */; };
 		4090643D1A3A5EFD00A43DFB /* GravitateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4090643C1A3A5EFD00A43DFB /* GravitateTests.swift */; };
+		409064471A3A612A00A43DFB /* static.squarespace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 409064461A3A612A00A43DFB /* static.squarespace.jpg */; };
+		409064491A3AAD1600A43DFB /* gtate.png in Resources */ = {isa = PBXBuildFile; fileRef = 409064481A3AAD1600A43DFB /* gtate.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		409064361A3A5EFD00A43DFB /* GravitateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GravitateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4090643B1A3A5EFD00A43DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4090643C1A3A5EFD00A43DFB /* GravitateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravitateTests.swift; sourceTree = "<group>"; };
+		409064461A3A612A00A43DFB /* static.squarespace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = static.squarespace.jpg; sourceTree = "<group>"; };
+		409064481A3AAD1600A43DFB /* gtate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gtate.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				409064281A3A5EFD00A43DFB /* SecondViewController.swift */,
 				4090642A1A3A5EFD00A43DFB /* Main.storyboard */,
 				4090642D1A3A5EFD00A43DFB /* Images.xcassets */,
+				409064481A3AAD1600A43DFB /* gtate.png */,
+				409064461A3A612A00A43DFB /* static.squarespace.jpg */,
 				4090642F1A3A5EFD00A43DFB /* LaunchScreen.xib */,
 				409064221A3A5EFD00A43DFB /* Supporting Files */,
 			);
@@ -195,6 +201,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				409064491A3AAD1600A43DFB /* gtate.png in Resources */,
+				409064471A3A612A00A43DFB /* static.squarespace.jpg in Resources */,
 				4090642C1A3A5EFD00A43DFB /* Main.storyboard in Resources */,
 				409064311A3A5EFD00A43DFB /* LaunchScreen.xib in Resources */,
 				4090642E1A3A5EFD00A43DFB /* Images.xcassets in Resources */,
@@ -409,6 +417,7 @@
 				409064421A3A5EFD00A43DFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		409064431A3A5EFD00A43DFB /* Build configuration list for PBXNativeTarget "GravitateTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				409064451A3A5EFD00A43DFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
